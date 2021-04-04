@@ -1,11 +1,12 @@
 @font-face {
-  font-family: BluuNext-Bold;
+  font-family: "BluuNext-Bold";
   font-weight: bold;
-  src: url("/public/fonts/BluuNext-Bold.otf") format("opentype");
+  src: url("public/fonts/BluuNext-Bold.otf") format("opentype");
 }
 
 body {
   background-color: powderblue;
+  font-family: "BluuNext-Bold", serif;
 }
 
 .container {
