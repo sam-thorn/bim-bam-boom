@@ -5,8 +5,23 @@
 }
 
 body {
-  background-color: powderblue;
+  /* background-color: #b0e0e6; */
+  background: linear-gradient(-45deg, #b0e0e6, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
   font-family: "BluuNext-Bold", serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .container {
@@ -35,7 +50,10 @@ body {
 
 @media (min-width: 320px) {
   body {
-    background-color: mediumslateblue;
+    /* background-color: #7b68ee; */
+    background: linear-gradient(-45deg, #7b68ee, #9e43db, #e069e4);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
   }
 
   .container {
@@ -66,7 +84,10 @@ body {
 
 @media (min-width: 768px) {
   body {
-    background-color: mediumaquamarine;
+    /* background-color: #66cdaa; */
+    background: linear-gradient(-45deg, #66cdaa, #33c76c, #cfeb35);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
   }
   .xsmall-text {
     display: none;
@@ -89,7 +110,10 @@ body {
 
 @media (min-width: 1200px) {
   body {
-    background-color: wheat;
+    background-color: #f5deb3;
+    background: linear-gradient(-45deg, #f5deb3, #ebd577, #f0d126);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
   }
   .xsmall-text {
     display: none;
