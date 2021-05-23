@@ -21,4 +21,4 @@ Open a new browser window/tab and run:
 https://localhost3000
 ```
 
-Your browser should now display the project. Adjust the viewport to examine the different states of the app.
+You may need to refresh the page. Your browser should now display the project. Adjust the viewport to examine the different states of the app.
