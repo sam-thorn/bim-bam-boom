@@ -33,7 +33,7 @@ body {
 
 .xsmall-text {
   font-size: 20vw;
-  color: hotpink;
+  color: rgb(255, 255, 255);
 }
 
 .small-text {
@@ -70,7 +70,7 @@ body {
   .small-text {
     display: flex;
     font-size: 20vw;
-    color: orange;
+    color: rg›››b(255, 255, 255);
   }
 
   .mid-text {
@@ -100,7 +100,7 @@ body {
   .mid-text {
     display: flex;
     font-size: 30vw;
-    color: cornsilk;
+    color: rgb(255, 255, 255);
   }
 
   .large-text {
@@ -129,6 +129,6 @@ body {
   .large-text {
     display: flex;
     font-size: 40vh;
-    color: crimson;
+    color: rgb(255, 255, 255);
   }
 }
